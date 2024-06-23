@@ -386,7 +386,6 @@ ul {
   max-width: 370px;
 }
 
-
 .box-image h5 {
   font-size: 14px;
   font-weight: 400;
@@ -487,12 +486,13 @@ productcards.cards {
   width: 240px;
   height: 272px;
 }
-.p-icon1 {
+.card-icon {
   align-items: center;
   border-radius: 44.49px;
   border: none;
   padding: 10px;
   display: flex;
+  background-color: white;
 }
 .applicable-crt {
   border: 1px solid black;
@@ -601,14 +601,14 @@ productcards.cards {
 
 .card-info-btn {
   border-radius: 30px;
-  width: 124px;
-  height: 40px;
+
   color: #8d5cf6;
   background-color: white;
   border: 1px solid #8d5cf6;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px 20px 10px 15px;
 }
 
 .card-info-btn h6 {
@@ -620,7 +620,7 @@ productcards.cards {
   background-color: #8d5cf6;
 }
 
-.p-icon2 {
+.productcard-like-icon {
   align-items: center;
   border-radius: 44.49px;
   border: none;
@@ -697,10 +697,9 @@ productcards.cards {
   text-align: center;
   max-width: 170px;
 }
-.btn-3 {
-  width: 235px;
+.btn-click {
   border-radius: 5px;
-  padding: 15px 40px 15px 40px;
+  padding: 15px 80px 15px 75px;
   gap: 10px;
   border: none;
   background-color: #8d5cf6;
@@ -718,9 +717,8 @@ productcards.cards {
   gap: 20px;
 
   max-width: 305px;
- 
 }
- .pricing-features:box:hover {
+.pricing-features:box:hover {
   color: white;
 }
 
@@ -961,12 +959,11 @@ productcards.cards {
   font-weight: 700px;
   font-size: 16px;
   color: #26335d;
-  
 }
 .pricing-features {
   font-weight: 700px;
   font-size: 14px;
-  
 }
-
-
+.footer-bg {
+  background: #fafafa;
+}
